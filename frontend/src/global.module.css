@@ -1,0 +1,63 @@
+@import url('https://fonts.cdnfonts.com/css/comico-2');
+@import url('https://fonts.cdnfonts.com/css/fira-sans-book');
+
+.body {
+    color: white;
+    background-image: url("../public/images/wallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.header {
+    color: white;
+    font-family: "Comico", sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.body .input-url {
+    background-color: transparent;
+    background-image: none;
+    margin-bottom: 50px;
+    width: 900px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.button {
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.body .get-short-url {
+    opacity: 0.4;
+    border-color: white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.body .get-short-url:hover {
+    opacity: 1;
+    color: white;
+    background-color: #555fa3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-image: none;
+    background-color: transparent;
+}
