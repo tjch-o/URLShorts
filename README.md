@@ -1,5 +1,7 @@
 # URLShorts
-A full stack url shortener web app developed with the MERN stack.
+A full stack URL shortener web app developed with the MERN stack. 
+
+This is my first time using Chakra UI and MongoDB. I will look into deploying both the frontend and the backend soon.
 
 Command to install all dependencies:
 ```
