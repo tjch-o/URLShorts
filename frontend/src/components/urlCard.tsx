@@ -5,10 +5,12 @@ interface CardProps {
 }
 
 function URLCard({ url }: CardProps) {
+  const apiEndPoint = process.env.REACT_APP_BACKEND_API_ENDPOINT
+
   return (
     <Card bg = "transparent">
       <CardBody>
-        <Text fontFamily = "Fira Sans, san-serif" color = "#FDE992" > http://localhost:5000/{url} </Text>
+        <Text fontFamily = "Fira Sans, san-serif" color = "#FDE992" > {`${apiEndPoint}/${url}`} </Text>
       </CardBody>
     </Card>
   )

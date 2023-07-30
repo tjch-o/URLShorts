@@ -1,7 +1,8 @@
 # URLShorts
 A full stack URL shortener web app developed with the MERN stack. 
 
-This is my first time using Chakra UI and MongoDB. I will look into deploying both the frontend and the backend soon.
+A live demo of the web app can be found 
+[here](https://tangerine-druid-c2be4c.netlify.app).
 
 Command to install all dependencies:
 ```
