@@ -40,7 +40,7 @@ function App() {
       setSuccess(true)
       setURL(data.shortenedURL)
       console.log(data.shortenedURL)
-    } else if (res.status == 400) {
+    } else if (res.status === 400) {
       toast({
         title: "Error",
         description: "Please give a valid URL.",
