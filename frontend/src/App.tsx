@@ -10,6 +10,7 @@ function App() {
   const [URL, setURL] = useState("")
   const [value, setValue] = useState("")
   const toast = useToast()
+  const apiEndPoint = process.env.REACT_APP_BACKEND_API_ENDPOINT
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setValue(event.target.value)
@@ -17,7 +18,7 @@ function App() {
 
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault()
-    const res = await fetch("http://localhost:5000/get-shortened-url", {
+    const res = await fetch(`${apiEndPoint}/get-shortened-url`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
